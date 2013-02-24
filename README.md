@@ -64,15 +64,11 @@ changed test files, use this:
 
        $ lein midje --lazytest
 
-For Leiningen 1 (NOT 2) the dependency and the repository must be added to your project.
+To use this feature a dependency upon Stuart Sierra's lazytest must be added:
 
 Dependency:
 
-      [com.stuartsierra/lazytest "1.2.3"]
-
-Stuart Sierra's repo:
-
-      :repositories {"stuart" "http://stuartsierra.com/maven2"}
+      [lazytest "1.2.3"]
 
 Environment Variables
 ==============
